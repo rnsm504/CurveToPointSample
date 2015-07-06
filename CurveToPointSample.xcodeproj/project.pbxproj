@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE357F341B4AE5A500407399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE357F331B4AE5A500407399 /* AppDelegate.swift */; };
+		EE357F361B4AE5A500407399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE357F351B4AE5A500407399 /* ViewController.swift */; };
+		EE357F391B4AE5A500407399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE357F371B4AE5A500407399 /* Main.storyboard */; };
+		EE357F3B1B4AE5A500407399 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE357F3A1B4AE5A500407399 /* Images.xcassets */; };
+		EE357F3E1B4AE5A500407399 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE357F3C1B4AE5A500407399 /* LaunchScreen.xib */; };
+		EE357F4A1B4AE5A500407399 /* CurveToPointSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE357F491B4AE5A500407399 /* CurveToPointSampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE357F441B4AE5A500407399 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE357F261B4AE5A500407399 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE357F2D1B4AE5A500407399;
+			remoteInfo = CurveToPointSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE357F2E1B4AE5A500407399 /* CurveToPointSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurveToPointSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE357F321B4AE5A500407399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE357F331B4AE5A500407399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE357F351B4AE5A500407399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE357F381B4AE5A500407399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE357F3A1B4AE5A500407399 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE357F3D1B4AE5A500407399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EE357F431B4AE5A500407399 /* CurveToPointSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurveToPointSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE357F481B4AE5A500407399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE357F491B4AE5A500407399 /* CurveToPointSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveToPointSampleTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE357F2B1B4AE5A500407399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE357F401B4AE5A500407399 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE357F251B4AE5A500407399 = {
+			isa = PBXGroup;
+			children = (
+				EE357F301B4AE5A500407399 /* CurveToPointSample */,
+				EE357F461B4AE5A500407399 /* CurveToPointSampleTests */,
+				EE357F2F1B4AE5A500407399 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE357F2F1B4AE5A500407399 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE357F2E1B4AE5A500407399 /* CurveToPointSample.app */,
+				EE357F431B4AE5A500407399 /* CurveToPointSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE357F301B4AE5A500407399 /* CurveToPointSample */ = {
+			isa = PBXGroup;
+			children = (
+				EE357F331B4AE5A500407399 /* AppDelegate.swift */,
+				EE357F351B4AE5A500407399 /* ViewController.swift */,
+				EE357F371B4AE5A500407399 /* Main.storyboard */,
+				EE357F3A1B4AE5A500407399 /* Images.xcassets */,
+				EE357F3C1B4AE5A500407399 /* LaunchScreen.xib */,
+				EE357F311B4AE5A500407399 /* Supporting Files */,
+			);
+			path = CurveToPointSample;
+			sourceTree = "<group>";
+		};
+		EE357F311B4AE5A500407399 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE357F321B4AE5A500407399 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE357F461B4AE5A500407399 /* CurveToPointSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE357F491B4AE5A500407399 /* CurveToPointSampleTests.swift */,
+				EE357F471B4AE5A500407399 /* Supporting Files */,
+			);
+			path = CurveToPointSampleTests;
+			sourceTree = "<group>";
+		};
+		EE357F471B4AE5A500407399 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE357F481B4AE5A500407399 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE357F2D1B4AE5A500407399 /* CurveToPointSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE357F4D1B4AE5A500407399 /* Build configuration list for PBXNativeTarget "CurveToPointSample" */;
+			buildPhases = (
+				EE357F2A1B4AE5A500407399 /* Sources */,
+				EE357F2B1B4AE5A500407399 /* Frameworks */,
+				EE357F2C1B4AE5A500407399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CurveToPointSample;
+			productName = CurveToPointSample;
+			productReference = EE357F2E1B4AE5A500407399 /* CurveToPointSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE357F421B4AE5A500407399 /* CurveToPointSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE357F501B4AE5A500407399 /* Build configuration list for PBXNativeTarget "CurveToPointSampleTests" */;
+			buildPhases = (
+				EE357F3F1B4AE5A500407399 /* Sources */,
+				EE357F401B4AE5A500407399 /* Frameworks */,
+				EE357F411B4AE5A500407399 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE357F451B4AE5A500407399 /* PBXTargetDependency */,
+			);
+			name = CurveToPointSampleTests;
+			productName = CurveToPointSampleTests;
+			productReference = EE357F431B4AE5A500407399 /* CurveToPointSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE357F261B4AE5A500407399 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Kuze Masanori";
+				TargetAttributes = {
+					EE357F2D1B4AE5A500407399 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					EE357F421B4AE5A500407399 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = EE357F2D1B4AE5A500407399;
+					};
+				};
+			};
+			buildConfigurationList = EE357F291B4AE5A500407399 /* Build configuration list for PBXProject "CurveToPointSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE357F251B4AE5A500407399;
+			productRefGroup = EE357F2F1B4AE5A500407399 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE357F2D1B4AE5A500407399 /* CurveToPointSample */,
+				EE357F421B4AE5A500407399 /* CurveToPointSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE357F2C1B4AE5A500407399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE357F391B4AE5A500407399 /* Main.storyboard in Resources */,
+				EE357F3E1B4AE5A500407399 /* LaunchScreen.xib in Resources */,
+				EE357F3B1B4AE5A500407399 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE357F411B4AE5A500407399 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE357F2A1B4AE5A500407399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE357F361B4AE5A500407399 /* ViewController.swift in Sources */,
+				EE357F341B4AE5A500407399 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE357F3F1B4AE5A500407399 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE357F4A1B4AE5A500407399 /* CurveToPointSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE357F451B4AE5A500407399 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE357F2D1B4AE5A500407399 /* CurveToPointSample */;
+			targetProxy = EE357F441B4AE5A500407399 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE357F371B4AE5A500407399 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE357F381B4AE5A500407399 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE357F3C1B4AE5A500407399 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE357F3D1B4AE5A500407399 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE357F4B1B4AE5A500407399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE357F4C1B4AE5A500407399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE357F4E1B4AE5A500407399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CurveToPointSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE357F4F1B4AE5A500407399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CurveToPointSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE357F511B4AE5A500407399 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CurveToPointSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurveToPointSample.app/CurveToPointSample";
+			};
+			name = Debug;
+		};
+		EE357F521B4AE5A500407399 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CurveToPointSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CurveToPointSample.app/CurveToPointSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE357F291B4AE5A500407399 /* Build configuration list for PBXProject "CurveToPointSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE357F4B1B4AE5A500407399 /* Debug */,
+				EE357F4C1B4AE5A500407399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE357F4D1B4AE5A500407399 /* Build configuration list for PBXNativeTarget "CurveToPointSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE357F4E1B4AE5A500407399 /* Debug */,
+				EE357F4F1B4AE5A500407399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE357F501B4AE5A500407399 /* Build configuration list for PBXNativeTarget "CurveToPointSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE357F511B4AE5A500407399 /* Debug */,
+				EE357F521B4AE5A500407399 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE357F261B4AE5A500407399 /* Project object */;
+}
